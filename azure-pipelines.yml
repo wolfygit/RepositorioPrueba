@@ -20,6 +20,6 @@ steps:
   inputs:
     PathtoPublish: '$(System.DefaultWorkingDirectory)'
     
-- script: node server.js
+#- script: node server.js
 
 
