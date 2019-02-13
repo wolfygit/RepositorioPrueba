@@ -14,10 +14,12 @@ steps:
     command: install
 
 - script: npm install achieve
-# - script: node server.js
+
 
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    
+- script: node server.js
 
 
